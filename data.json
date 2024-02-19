@@ -1,0 +1,396 @@
+{
+  "intents": [
+    {
+      "tag": "salutation",
+      "patterns": [
+        "salut",
+        "est-ce qu'il y a quelqu'un?",
+        "Bonjour"
+      ],
+      "responses": [
+        "Bonjour, je suis AlexBot, le chatbot créé par Alex. Aujourd'hui, je suis là pour vous assister \n avec des informations complémentaires sur le CV d'Alex.",
+        "Content de vous revoir ! Vous pouvez toujours me poser des questions",
+        "Salut ! Comment puis-je vous aider ?"
+      ],
+      "set": ""
+    },
+    {
+      "tag": "etat_bot",
+      "patterns": [
+        "Comment vas-tu?",
+        "Quoi de neuf?",
+        "tu vas bien?"
+      ],
+      "responses": [
+        "Je vais bien, merci de demander.",
+        "Je vais bien."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "createur",
+      "patterns": [
+        "qui es-tu?",
+        "qui est-ce?",
+        "à qui ai-je affaire?",
+        "quel est ton nom?",
+        "es-tu humain?"
+      ],
+      "responses": [
+        "Salut, je m'appelle Alexbot, un chatbot créé par Alex Mestrah.\nRavi de vous rencontrer."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "triste",
+      "patterns": [
+        "je suis triste",
+        "je suis contrarié",
+        "j'ai un problème",
+        "je ne vais pas bien"
+      ],
+      "responses": [
+        "Pas de problème. Tout ira bien",
+        "'Il n'y a qu'un bonheur dans la vie, aimer et être aimé' \n- George Sand.",
+        "'Pleure. Pardonne. Apprends. Avance. \nLaisse tes larmes arroser les graines de ton bonheur futur' \n- Steve Maraboli",
+        "Je suis là pour vous, comment puis-je vous aider?"
+      ],
+      "set": ""
+    },
+    {
+      "tag": "amusant",
+      "patterns": [
+        "tu as un bon sens de l'humour",
+        "tu es un bot drôle"
+      ],
+      "responses": [
+        "Oui, j'ai un bon sens de l'humour.",
+        "Merci pour votre compliment"
+      ],
+      "set": ""
+    },
+    {
+      "tag": "positif",
+      "patterns": [
+        "ok",
+        "bien cool",
+        "oui wow tu es tellement intelligent",
+        "hourra je suis content",
+        "je vais bien"
+      ],
+      "responses": [
+        "J'espère que vous obtenez des réponses claires."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "au_revoir",
+      "patterns": [
+        "Au revoir",
+        "à plus tard",
+        "bonne journée",
+        "bonne soirée",
+        "bon weekend",
+        "à demain",
+        "Salut"
+
+      ],
+      "responses": [
+        "à plus tard",
+        "Au revoir! Revenez bientôt."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "merci",
+      "patterns": [
+        "Merci",
+        "C'est utile"
+      ],
+      "responses": [
+        "Heureux de vous aider!",
+        "À tout moment!",
+        "Avec plaisir"
+      ],
+      "set": ""
+    },
+    {
+      "tag": "competences_techniques",
+      "patterns": [
+        "Compétences",
+        "Compétences techniques",
+        "Compétences de programation",
+        "savoir-faire",
+        "Quelles sont tes savoir-faire",
+        "Quelles sont tes compétences techniques?",
+        "Quels langages de programmation connais-tu?",
+        "Tu utilises quels outils pour l'analyse de données?"
+      ],
+      "responses": [
+        "Les compétences techniques d'Alex incluent : \n 1- le machine learning avec Scikit-learn, Text Mining, CatBoost, XGBoost, \n 2- Deep learning avec Keras et Tensorflow, \n 3- Data analysis avec Power BI, \n 4- Data visualization avec Matplotlib et Seaborn, \n 5- ainsi que la programmation en Python, R, C/C++, Matlab, Numpy, Pandas."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "competences_organisationnelles",
+      "patterns": [
+        "Quelles sont tes compétences organisationnelles?",
+        "Organisation",
+        "Compétences en gestion",
+        "Es-tu organisé?",
+        "Es-tu fiable?"
+      ],
+      "responses": [
+        "Les compétences organisationnelles d'Alex incluent : \n 1- Travail en équipe, \n 2- Fiable, \n 3- Adaptabilité, \n 4- Créativité, \n 5- Esprit d'analyse, \n 6- Capacité d’écoute."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "methodes_ml",
+      "patterns": [
+        "Quelles sont les méthodes de machine learning ?",
+        "Techniques de machine learning",
+        "Approches de ML"
+      ],
+      "responses": [
+        "Les méthodes de machine learning incluent :",
+        "- Régression linéaire",
+        "- Régression logistique",
+        "- Arbres de décision",
+        "- Forêts aléatoires",
+        "- Méthodes ensemblistes",
+        "- Machines à vecteurs de support (SVM)",
+        "- k-Plus proches voisins (k-NN)",
+        "- Réseaux de neurones artificiels",
+        "- Algorithmes génétiques",
+        "- Analyse discriminante",
+        "- Apprentissage par renforcement",
+        "- Méthodes de clustering (K-means, DBSCAN, etc.)"
+      ],
+      "set": ""
+    },
+    {
+      "tag": "experience",
+      "patterns": [
+        "Quelle est ton expérience professionnelle?",
+        "travail",
+        "travailler",
+        "expériences",
+        "travail",
+        "Où as-tu travaillé?"
+      ],
+      "responses": [
+        "Alex a travaillé en tant que : \n 1- Docteur en Identification de Modèle à l'Université de Caen, \n 2- Data Scientist chez Upwork, \n 3- Stagiaire en modélisation au Laboratoire Ampère de l'INSA Lyon, \n 4- Assistant Chef de Projet \n chez NEU company Debass."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "formation",
+      "patterns": [
+        "Quelle est ta formation?",
+        "études",
+        "université",
+        "doctorat",
+        "niveau d'étude",
+        "Où as-tu étudié?"
+      ],
+      "responses": [
+        "Alex a obtenu un Doctorat en Identification de Modèles à l'Université de Caen, un Master 2 en Automatique et Énergie Électrique à l'Université de Poitiers, et un Diplôme d'ingénieur en Informatique Industrielle à l'Université Libanaise."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "langues",
+      "patterns": [
+        "Langues",
+        "Quelles langues parles-tu?",
+        "Anglais",
+        "Francais",
+        "Arabe"
+      ],
+      "responses": [
+        "Alex parle couramment le Français, l'Anglais et l'Arabe."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "centres_interet",
+      "patterns": [
+        "Quels sont tes centres d'intérêt?",
+        "Loisirs",
+        "Que fais-tu pendant ton temps libre?"
+      ],
+      "responses": [
+        "Les centres d'intérêt d'Alex incluent la musculation, la natation, et le calisthenics."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "articles_scientifiques",
+      "patterns": [
+        "article",
+        "publication",
+        "As-tu publié des articles scientifiques?"
+      ],
+      "responses": [
+        "Alex a publié 6 articles scientifiques dans IEEE."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "intelligence_artificielle",
+      "patterns": [
+        "Qu'est-ce que l'intelligence artificielle ?",
+        "Définition de l'intelligence artificielle",
+        "Explique l'intelligence artificielle"
+      ],
+      "responses": [
+        "L'intelligence artificielle (IA) est la simulation de processus intelligents par des machines, \n en particulier des systèmes informatiques.",
+        "L'intelligence artificielle fait référence à la capacité des ordinateurs et des machines à effectuer des \n tâches qui nécessitent normalement l'intelligence humaine."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "Qu'est-ce que le machine learning ?",
+        "Explique le machine learning",
+        "Définition de machine learning"
+      ],
+      "responses": [
+        "Le machine learning est un sous-domaine de l'intelligence artificielle qui permet aux ordinateurs \n d'apprendre à partir de données sans être explicitement programmés.",
+        "Le machine learning est un processus par lequel les ordinateurs apprennent à résoudre des problèmes \n en analysant des données et en identifiant des modèles."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "deep_learning_vs_machine_learning",
+      "patterns": [
+        "Quelle est la différence entre le deep learning et le machine learning ?",
+        "Deep learning vs machine learning",
+        "Comparaison deep learning et machine learning"
+      ],
+      "responses": [
+        "Le deep learning est une technique de machine learning qui utilise des réseaux de neurones artificiels \n avec de nombreuses couches pour apprendre des données non structurées ou hiérarchiques.",
+        "Le machine learning est un domaine plus large qui inclut le deep learning. Le deep learning est une méthode \n spécifique de machine learning."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "algorithme",
+      "patterns": [
+        "Qu'est-ce qu'un algorithme ?",
+        "Définition algorithme",
+        "Explique le concept d'algorithme"
+      ],
+      "responses": [
+        "Un algorithme est un ensemble d'instructions précises et non ambiguës conçues pour résoudre un problème \n ou accomplir une tâche donnée en un nombre fini d'étapes.",
+        "Un algorithme est une procédure ou une formule prédéfinie pour résoudre un problème ou effectuer \n une tâche spécifique."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "data_science",
+      "patterns": [
+        "Qu'est-ce que la data science ?",
+        "Définition data science",
+        "Explique la data science"
+      ],
+      "responses": [
+        "La data science est un domaine interdisciplinaire qui utilise des méthodes, des algorithmes et des systèmes \n scientifiques pour extraire des connaissances et des informations à partir de données structurées et non structurées.",
+        "La data science combine des compétences en programmation, en statistiques et en expertise dans le domaine \n pour analyser et interpréter de grands ensembles de données."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "chatbot",
+      "patterns": [
+        "Qu'est-ce qu'un chatbot ?",
+        "Définition chatbot",
+        "Explique ce qu'est un chatbot"
+      ],
+      "responses": [
+        "Un chatbot est un programme informatique conçu pour simuler une conversation avec des êtres humains, \n en particulier sur Internet.",
+        "Un chatbot est un agent conversationnel automatisé qui peut répondre aux questions des utilisateurs et \n effectuer des tâches automatisées."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "ia_vs_automatisation",
+      "patterns": [
+        "Quelle est la différence entre l'intelligence artificielle et l'automatisation ?",
+        "IA vs automatisation",
+        "Comparaison intelligence artificielle et automatisation"
+      ],
+      "responses": [
+        "L'intelligence artificielle vise à doter les machines de capacités cognitives similaires à celles des humains, \n tandis que l'automatisation consiste à exécuter des tâches sans intervention humaine.",
+        "L'intelligence artificielle implique la capacité de penser et d'apprendre, tandis que l'automatisation concerne \n l'exécution de tâches préprogrammées de manière répétitive."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "methode_ia",
+      "patterns": [
+        "Quelles sont les méthodes utilisées en intelligence artificielle ?",
+        "Méthodes d'intelligence artificielle",
+        "Techniques d'IA"
+      ],
+      "responses": [
+        "Les méthodes d'intelligence artificielle incluent le machine learning, le deep learning, la logique floue, \n les réseaux de neurones, les arbres de décision, etc.",
+        "En intelligence artificielle, diverses techniques telles que le machine learning, le deep learning, et \n les réseaux de neurones sont utilisées pour résoudre des problèmes complexes."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "methode_ml",
+      "patterns": [
+        "Quelles sont les méthodes de machine learning ?",
+        "Techniques de machine learning",
+        "Approches de ML"
+      ],
+      "responses": [
+        "Les méthodes de machine learning incluent la régression linéaire, la classification, le clustering, \n les réseaux de neurones, les SVM, etc.",
+        "En machine learning, on utilise des techniques telles que la régression, la classification, le clustering, \n et les réseaux de neurones pour traiter les données et prendre des décisions."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "diff_ml_dl",
+      "patterns": [
+        "Quelles sont les différences dans les méthodes entre le deep learning et le machine learning ?",
+        "Comparaison des techniques deep learning et machine learning"
+      ],
+      "responses": [
+        "Le deep learning utilise des réseaux de neurones profonds avec plusieurs couches cachées, tandis que \n le machine learning peut utiliser diverses techniques, y compris des méthodes basées sur les arbres de décision ou les SVM.",
+        "Le deep learning est une sous-catégorie du machine learning qui se concentre sur l'utilisation de réseaux de neurones profonds \n pour apprendre des représentations de données hiérarchiques."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "methode_algo",
+      "patterns": [
+        "Quelles sont les méthodes algorithmiques les plus courantes ?",
+        "Techniques algorithmiques",
+        "Approches algorithmiques"
+      ],
+      "responses": [
+        "Les méthodes algorithmiques courantes incluent les algorithmes de tri, les algorithmes de recherche, \n les algorithmes de parcours de graphe, etc.",
+        "En informatique, les algorithmes sont utilisés pour résoudre divers problèmes, tels que le tri, la recherche, \n et la résolution de problèmes d'optimisation."
+      ],
+      "set": ""
+    },
+    {
+      "tag": "methode_data_science",
+      "patterns": [
+        "Quels sont les outils et techniques utilisés en data science ?",
+        "Méthodes et outils de data science",
+        "Techniques d'analyse de données"
+      ],
+      "responses": [
+        "Les outils de data science comprennent Python, R, SQL, des bibliothèques comme Pandas et Scikit-learn, \n ainsi que des techniques telles que l'analyse exploratoire des données, la modélisation statistique, etc.",
+        "En data science, les professionnels utilisent des outils tels que Python, R et des bibliothèques comme Pandas \n pour manipuler et analyser des données, ainsi que des techniques telles que la régression et la classification pour modéliser les données."
+      ],
+      "set": ""
+    }
+  ]
+}
